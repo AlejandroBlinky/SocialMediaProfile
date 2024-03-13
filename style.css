@@ -1,0 +1,88 @@
+@import url('https://fonts.google.com/specimen/Inter');
+
+*{
+font-family: 'Inter', sans-serif;
+font-weight: 400, 600, 700;
+font-size: 16px;
+}
+body{
+    background-color: black; /* Fondo negro */
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    height: 100vh; /* Para ocupar toda la altura de la pantalla */
+    margin: 0; /* Eliminar márgenes predeterminados */
+}
+
+
+.social {
+    background-color: hsl(0, 0%, 12%);
+    position:relative;
+    border-radius: 15px;
+    margin: 0;
+    padding: 0;
+    width: 50vh; /* Ancho absoluto */
+    height: 80vh;
+    max-height: 90vh;
+    overflow-y: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family:Inter ;
+}
+
+.social ul {
+    
+    margin: 0;
+    padding: 0;
+    
+}
+.social ul li{
+    color:white;
+    text-decoration: none;
+    list-style-type: none;
+    margin-bottom:0.2em;
+    
+}
+
+.social ul li button{
+    background-color: hsl(0, 0%, 20%);
+    color:white;
+    padding:20px;
+    border-radius: 10px;
+    box-shadow: none;
+    border: none;
+    width: 40vh;
+    margin: 2%;
+
+    font-weight: bold;
+}
+
+
+#profileimg img{
+    border-radius: 50%;
+    width: 30%;
+    height: 30%;
+    
+}
+
+#name {
+    font-size: 30px;
+    margin: 0px;
+    padding:10px;
+}
+
+
+#location{
+    color: hsl(75, 94%, 57%);
+    font-size: 18px;
+    padding: 0;
+    margin: 0px;    
+}
+
+#description {
+    margin: 20px;
+    padding: 0;
+}
+
